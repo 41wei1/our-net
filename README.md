@@ -1,2 +1,1 @@
-Our dataset follows pranet's experimental setup and can be downloaded here.
-https://github.com/DengPingFan/PraNet?tab=readme-ov-file
+Our dataset follows [PraNet]([url](https://github.com/DengPingFan/PraNet?tab=readme-ov-file#pranet-parallel-reverse-attention-network-for-polyp-segmentation-miccai2020-oral)) experimental setup and can be downloaded here. We are very grateful to pranet for his contribution.
