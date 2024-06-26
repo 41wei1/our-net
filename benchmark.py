@@ -24,7 +24,7 @@ def load_dataset(route):
                                 augmentAdv=False, augment=False, augmentAdvSeg=False, shuffle=False)
     return test_dataset, len(X_train)
 
-def benchmark(route, model, BATCH_SIZE = 1, save_file_name = "benchmark_result1.txt"):
+def benchmark(route, model, BATCH_SIZE = 1, save_file_name = "benchmark_result.txt"):
     
     list_of_datasets = os.listdir(route)
     f = open(save_file_name,"a")
@@ -43,7 +43,7 @@ if __name__ == "__main__":
     img_size = 352
     BATCH_SIZE = 1
     SEED = 1024
-    save_path = "./Result/test4.10/2024-04-10 17_49_11.597631final_model.h5"
+    save_path = "./final_model.h5"
     route_data = "./TestDataset/"
     path_to_test_dataset = "./TestDataset/"
     model = build_model(img_size)
