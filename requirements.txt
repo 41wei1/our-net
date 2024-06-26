@@ -1,0 +1,8 @@
+opencv-python
+tensorflow
+Pillow
+tqdm
+scikit-learn
+numpy
+matplotlib
+keras-cv-attention-models
