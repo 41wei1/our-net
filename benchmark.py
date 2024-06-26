@@ -24,7 +24,7 @@ def load_dataset(route):
                                 augmentAdv=False, augment=False, augmentAdvSeg=False, shuffle=False)
     return test_dataset, len(X_train)
 
-def benchmark(route, model, BATCH_SIZE = 32, save_file_name = "benchmark_result1.txt"):
+def benchmark(route, model, BATCH_SIZE = 1, save_file_name = "benchmark_result1.txt"):
     
     list_of_datasets = os.listdir(route)
     f = open(save_file_name,"a")
